@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{   
+    background-color: rgb(3, 3, 27);
+}
+
+.nav_ul{
+    list-style: none;
+    display: flex;
+    text-decoration: none;    
+    background-color: rgb(6, 6, 49);
+    color: #fff;
+    padding-top: 6px;
+    height: 25px;
+    border-top: 27px solid #000000;
+    border-bottom: 2px solid #000;
+}
+
+.nav_a:hover{
+    color: #2df;
+    transition: .3s;
+}
+
+.navi{
+    align-items: center;
+}
+
+.black_bar{
+    background-color: black;
+    height: 3px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.nav_li{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav_li i {
+    width: 30px;
+}
+
+.nav_a{
+    text-decoration: none;
+    color:#fff;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigation_bar{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    padding-top:8px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img_title{
+    text-align: center;
+}
+
+.nav{
+    text-align: center;
+}
+
+.main{
+    background-color: rgb(3, 3, 27);
+}
+
+h1{
+    color: #fff ; 
+}
+
+.article_p1{
+    padding: 75px; 
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 15px 0 15px 0;
+    background-image: url(/img/Generos_Portada.png);
+    background-size: 150px;
+
+}
+
+.article_p2{
+    padding: 75px; 
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 15px 0 15px 0;
+    background-image: url(/img/Artistas_Populares.png);
+    background-size: 150px;
+
+}
+
+.article_p3{
+    padding: 75px; 
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 15px 0 15px 0;
+    background-image: url(/img/Artistas_Populares.png);
+    background-size: 150px;
+
+}
+
+.article_p4{
+    padding: 75px; 
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 15px 0 15px 0;
+    background-image: url(/img/Descubrimiento__Semanal.png);
+    background-size: 150px;
+}
+
+.article_p5{
+    padding: 75px; 
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 15px 0 15px 0;
+    background-image: url(/img/Top10_Argentina.png);
+    background-size: 150px;
+}
+
+.flexbox1{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pe{
+    color: #fff;
+    padding-top: 5px;
+}
+
+.pe:first-child{
+    padding-left: 20px;
+}
+
+.flexbox{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexbox_h1{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+.flex_a{
+    text-align: center;
+    color: #000;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    border-radius: 15px 0 15px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.withe_line1{
+    background-color: #060631;
+    padding: 1px;
+    margin-bottom: 25px;
+}
+
+.withe_line2{
+    background-color: #060631;
+    padding: 1px;
+    margin-top: 25px;
+}
+
+.footer{
+    background:  #0a0a50;
+    color: #fff;
+    text-align: center;
+    height: 20px; 
+    width:100%; 
+    position:absolute; 
+    bottom:0; 
+    left:0; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genero1{
+    padding: 75px;
+    background-color: #000000;
+    background-image: url(https://cdn.discordapp.com/attachments/1216475154746441789/1221579691396305007/Cumbia_Portada.png?ex=661317be&is=6600a2be&hm=40774b3187ed2f8931dff9b230ffb2bd3d4cd11d59ced7a5efb9b6a2eaf76d24&);
+    border-radius: 20px 0 20px 0;
+    background-size: 150px;
+}
+
+.genero2{
+    padding: 75px;
+    background-color: #000000;
+    background-image: url(https://cdn.discordapp.com/attachments/1216475154746441789/1221579664598761542/Pop_Portada.png?ex=661317b7&is=6600a2b7&hm=0d966d2768883f0bdbaca1fa689e2ca723d242d21af03e0de0272880cc148422&);
+    border-radius: 20px 0 20px 0;
+}
+
+.genero3{
+    padding: 75px;
+    background-color: #000000;
+    background-image: url(https://cdn.discordapp.com/attachments/1216475154746441789/1221579665529897192/Rock_Portada.png?ex=661317b8&is=6600a2b8&hm=38a6e55902149d2075d7336eb77ff9a8cee7ca4ecdbd864f701d2c629508ed77&);
+    border-radius: 20px 0 20px 0;
+}
+
+.genero4{
+    padding: 75px;
+    background-color: #000000;
+    background-image: url(https://cdn.discordapp.com/attachments/1216475154746441789/1221579666549117149/Indie_Portada.png?ex=661317b8&is=6600a2b8&hm=7150860b36c96daeb1a2924c20a5e1ac89a0c589781ed77749a7967c973fce6a&);
+    border-radius: 20px 0 20px 0;
+}
+
+.genero5{
+    padding: 75px;
+    background-color: #000000;
+    background-image: url(https://cdn.discordapp.com/attachments/1216475154746441789/1221579664900755588/RB_Portada.png?ex=661317b7&is=6600a2b7&hm=b6e128f01c5ba25fbcc8f9290c5a99981d55b0410b66258023a969e709872106&);
+    border-radius: 20px 0 20px 0;
+}
+
+.genero6{
+    padding: 75px;
+    background-color: #000000;
+    background-image: url(https://cdn.discordapp.com/attachments/1216475154746441789/1221579691157360791/Cuarteto_Portada.png?ex=661317be&is=6600a2be&hm=1910054fec3c5de439a446dc2da89a41e21ef5945ca042fce7b8230bb5a88a64&);
+    border-radius: 20px 0 20px 0;
+}
+
+.genero7{
+    padding: 75px;
+    background-color: #000000;
+    background-image: url(https://cdn.discordapp.com/attachments/1216475154746441789/1221579666045931581/Electronica_Portada.png?ex=661317b8&is=6600a2b8&hm=b50cecf0eac67200481112fd7cbf7151ca8265be7480edd455af0e1da41a832d&);
+    border-radius: 20px 0 20px 0;
+}
+
+.genero8{
+    padding: 75px;
+    background-color: #000000;
+    background-image: url(https://cdn.discordapp.com/attachments/1216475154746441789/1221579691396305007/Cumbia_Portada.png?ex=661317be&is=6600a2be&hm=40774b3187ed2f8931dff9b230ffb2bd3d4cd11d59ced7a5efb9b6a2eaf76d24&);
+    border-radius: 20px 0 20px 0;
+}
+
+.flex_footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox2{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
